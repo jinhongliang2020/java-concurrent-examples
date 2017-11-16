@@ -1,4 +1,4 @@
-package org.th.thread.quickstart;
+package org.hong.thread.quickstart;
 
 /**
  * @ClassName: NewThread
