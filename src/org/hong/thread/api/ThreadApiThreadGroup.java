@@ -6,7 +6,7 @@ import java.util.Arrays;
 /**
  * @author hong
  * @version v1.1
- * @Description: (Thread 类相关api 使用.)
+ * @Description: (Thread 类之线程组相关api.)
  * @date 2017/11/16
  */
 public class ThreadApiThreadGroup {
