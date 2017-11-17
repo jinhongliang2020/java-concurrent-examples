@@ -7,7 +7,7 @@ package org.hong.thread.api;
  * @date 2017/11/16
  * @version v1.1
  */
-public class ThreadApiDaemon {
+public class ThreadDaemonApi {
 
     public static void main(String[] args) {
 
