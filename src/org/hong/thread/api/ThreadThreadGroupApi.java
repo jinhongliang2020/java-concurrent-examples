@@ -9,7 +9,7 @@ import java.util.Arrays;
  * @Description: (Thread 类之线程组相关api.)
  * @date 2017/11/16
  */
-public class ThreadApiThreadGroup {
+public class ThreadThreadGroupApi {
 
     public static void main(String[] args) {
 
@@ -48,6 +48,7 @@ public class ThreadApiThreadGroup {
         System.out.println(thread_1.getThreadGroup().getName());
 
         // 枚举线程组实例
+        // 将当前线程的线程组及其子组中的每一个活动线程复制到指定的数组中
         ThreadGroup threadGroup = thread_1.getThreadGroup();
         Thread[] threads = new Thread[threadGroup.activeCount()];
         threadGroup.enumerate(threads);
