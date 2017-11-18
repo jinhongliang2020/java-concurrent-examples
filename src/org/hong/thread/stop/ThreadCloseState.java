@@ -1,4 +1,4 @@
-package org.hong.thread.thread_stop;
+package org.hong.thread.stop;
 
 
 /**
