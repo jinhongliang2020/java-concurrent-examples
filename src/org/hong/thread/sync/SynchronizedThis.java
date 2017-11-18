@@ -2,7 +2,7 @@ package org.hong.thread.sync;
 
 /**
  * @ClassName: SynchronizedThis
- * @Description: (这里用一句话描述这个类的作用)
+ * @Description: (用来验证同步方法使用的this锁.)
  * @author hong
  * @date 2017/11/18
  * @version v1.1
