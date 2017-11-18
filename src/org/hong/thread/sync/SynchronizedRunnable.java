@@ -1,4 +1,4 @@
-package org.hong.thread.thread_synchronized;
+package org.hong.thread.sync;
 
 /**
  * @ClassName: SynchronizedRunnable

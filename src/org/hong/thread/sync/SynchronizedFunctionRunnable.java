@@ -1,4 +1,4 @@
-package org.hong.thread.thread_synchronized;
+package org.hong.thread.sync;
 
 /**
  * Created by hong on 2017/11/18.
@@ -18,6 +18,7 @@ public class SynchronizedFunctionRunnable implements Runnable {
         }
     }
 
+    // this锁 ，即SynchronizedFunctionRunnable 对象.
     private synchronized boolean ticket() {
         if (index > MAX)
             return true;

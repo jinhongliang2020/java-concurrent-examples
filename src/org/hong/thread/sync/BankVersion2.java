@@ -1,4 +1,4 @@
-package org.hong.thread.thread_synchronized;
+package org.hong.thread.sync;
 
 /**
  * Created by hong on 2017/11/18.
