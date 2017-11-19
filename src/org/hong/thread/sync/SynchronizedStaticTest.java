@@ -9,7 +9,6 @@ package org.hong.thread.sync;
  */
 public class SynchronizedStaticTest {
 
-
     // 验证得到 ，当static 代码块加载时，其他线程没有运行
     // 也就是说，其他线程使用的是相同的锁.
     public static void main(String[] args) {
