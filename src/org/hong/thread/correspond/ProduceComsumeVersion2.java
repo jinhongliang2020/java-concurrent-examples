@@ -60,8 +60,8 @@ public class ProduceComsumeVersion2 {
     public static void main(String[] args) {
         ProduceComsumeVersion2 produceComsumeVersion = new ProduceComsumeVersion2();
 
-        Stream.of("P1", "P2", "P3").forEach(n ->
-                new Thread(n) {
+        Stream.of("P1", "P2", "P3").forEach(name ->
+                new Thread(name) {
                     @Override
                     public void run() {
                         while (true) {
@@ -71,8 +71,8 @@ public class ProduceComsumeVersion2 {
                 }.start()
         );
 
-        Stream.of("C1", "C2", "C3").forEach(n ->
-                new Thread("C") {
+        Stream.of("C1", "C2", "C3").forEach(name ->
+                new Thread(name) {
                     @Override
                     public void run() {
                         while (true) {
