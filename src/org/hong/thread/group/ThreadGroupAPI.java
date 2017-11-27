@@ -1,6 +1,4 @@
-package org.hong.thread.threadgroup;
-
-import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
+package org.hong.thread.group;
 
 import java.util.Arrays;
 
